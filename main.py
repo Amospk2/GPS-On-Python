@@ -1,6 +1,3 @@
-
-from dis import dis
-import math
 import matplotlib.pyplot as plt
 from grafo import Graph
 from haversine import haversine
