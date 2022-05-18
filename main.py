@@ -37,7 +37,7 @@ def get_caminho(x1, x2):
     print("Não existe um caminho.")
     return False
   
-  print(f"A distancia do ponto {x1} até o ponto {x2} e: {dist}")
+  print(f"A distancia do ponto {x1} até o ponto {x2} e: {dist} KM")
   for index, vertex in enumerate(caminho):
     if len(caminho) > index+1:
       connectpoints(vertex, caminho[index+1])
