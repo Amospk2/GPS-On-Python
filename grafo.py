@@ -13,8 +13,6 @@ class Graph:
         return novo_vertice
         
     def get_vertex(self, key):
-        if self.vert_list[key] == None:
-            print("errrou")
         return self.vert_list[key]
         
     def add_edge(self, de, para, cost=0):
